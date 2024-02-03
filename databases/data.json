@@ -1,0 +1,26 @@
+{
+  "FIGURES": [
+    {
+      "shape": "Круг",
+      "color": "blue"
+    },
+    {
+      "shape": "Прямоугольник",
+      "color": "red"
+    },
+    {
+      "shape": "Квадрат",
+      "color": "green"
+    },
+    {
+      "id": "3463",
+      "shape": "Круг",
+      "color": "yellow"
+    },
+    {
+      "id": "ab6a",
+      "shape": "Квадрат",
+      "color": "cyan"
+    }
+  ]
+}

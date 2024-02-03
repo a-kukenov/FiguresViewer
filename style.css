@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
+    gap: 15px;
+}
+.container {
+    height: 600px;
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    gap: 30px;
+    border-radius: 10px;
+}
+.box1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 450px;
+    height: 45px;
+    padding-left: 7px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    background-color: rgb(236, 236, 236);
+    border-radius: 7px;
+    color: rgb(37, 37, 37);
+}
+.buttons{
+    height: 55px;
+    width: 960px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+}
+.button{
+    background-color: rgb(236, 236, 236);
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    font-size: 25px;
+    border-radius: 10px;
+    color: rgb(37, 37, 37);
+    cursor: pointer;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    /* flex-wrap: wrap; */
+    overflow-y: scroll;
+}
+.slot{
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    min-height: 180px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.figure{
+    background-color: rgb(255, 255, 255);
+}
